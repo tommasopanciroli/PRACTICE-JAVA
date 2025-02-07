@@ -1,4 +1,4 @@
-
+package esercizio1;
 
 public class Prodotto {
     public static void main(String[] args) {

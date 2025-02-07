@@ -1,3 +1,5 @@
+package esercizio1;
+
 public class inArray {
     public static void main(String[] args) {
         String[] array = {"Tommaso", "Giulia", "Anna", "Francois", "Massimo"};
