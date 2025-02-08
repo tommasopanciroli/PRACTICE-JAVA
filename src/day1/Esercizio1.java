@@ -1,6 +1,6 @@
-package esercizio1;
+package day1;
 
-public class Main {
+public class Esercizio1 {
     public static void main(String[] args) {
     System.out.println(prodotto(5, 7));
     System.out.println(concatena("Il valore é: ", 10));

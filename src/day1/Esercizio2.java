@@ -1,8 +1,8 @@
-package esercizio2;
+package day1;
 
 import java.util.Scanner;
 
-public class Main {
+public class Esercizio2 {
 
     public static void main(String[] args) {
         String risultato = usaScanner("Inserisci il primo valore: ", "Inserisci il secondo valore: ", "Inserisci il terzo valore: ");

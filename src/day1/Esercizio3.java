@@ -1,6 +1,6 @@
-package esercizio3;
+package day1;
 
-public class Main {
+public class Esercizio3 {
     public static void main(String[] args) {
         System.out.println(perimetroRettangolo(3.3, 5));
         System.out.println(pariDispari(4));
