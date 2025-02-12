@@ -1,8 +1,12 @@
 package day4;
 
 
+import day4pt2.Chiamata;
+import day4pt2.Sim;
+
 public class Main {
     public static void main(String[] args) {
+        System.out.println("ESERCIZIO 1");
         Rettangolo rettangolo = new Rettangolo(3, 5);
         System.out.println(rettangolo.stampaRettangolo());
 
@@ -11,6 +15,14 @@ public class Main {
         Rettangolo rettangolo2 = new Rettangolo(4, 4);
         stampaDueRettangoli(rettangolo1, rettangolo2);
 
+        System.out.println("\n----------ESERCIZIO 2-----------");
+        Chiamata chiamataLuca = new Chiamata(222333444, 1.8);
+        Chiamata chiamataGiovanni = new Chiamata(222333444, 3.4);
+        Chiamata chiamataMassimo = new Chiamata(222333444, 3.2);
+        Chiamata chiamataFrancois = new Chiamata(222333444, 5.8);
+        Chiamata chiamataAnna = new Chiamata(222333444, 10.4);
+        Sim simTommaso = new Sim(33234356, 10, new Chiamata[]{chiamataFrancois, chiamataAnna, chiamataLuca, chiamataGiovanni, chiamataMassimo});
+        simTommaso.stampaSim();
     }
 
     public static void stampaDueRettangoli(Rettangolo ret1, Rettangolo ret2) {
