@@ -8,7 +8,7 @@ public class Main {
         System.out.println(numeroIntero);
 
         System.out.println("------ES2------");
-        long numeroLungo= 29394229442L;
+        long numeroLungo = 29394229442L;
         int numeroIntero2 = (int) numeroLungo;
         System.out.println(numeroIntero2);
 
@@ -55,6 +55,41 @@ public class Main {
         String str4 = "ciaone";
         boolean lunghezza = str3.length() > str4.length();
         System.out.println("La prima stringa è più lunga della seconda? " + lunghezza);
+
+        System.out.println("------ES11------");
+        int anno = 2024;
+        boolean annoBisestile = anno % 4 == 0 && anno % 100 != 0 || anno % 400 == 0;
+        System.out.println("L'anno è bisestile? " + annoBisestile);
+
+        System.out.println("------ES12------");
+        String testo = "";
+        boolean vuotaONull = testo == null || testo.isEmpty();
+        System.out.println("La stringa è vuota o null? " + vuotaONull);
+
+        System.out.println("------ES13------");
+        int numeroIntero9 = 9;
+        boolean positivoEDispari = numeroIntero9 > 0 && numeroIntero9 % 2 != 0;
+        System.out.println("Il numero è positivo e dispari? " + positivoEDispari);
+
+        System.out.println("------ES14------");
+        int numeroIntero10 = 30;
+        boolean pariEDivisibile = numeroIntero10 % 2 == 0 && numeroIntero10 % 3 == 0;
+        System.out.println("Il numero è divisibile per tre e pari? " + pariEDivisibile);
+
+        System.out.println("------ES15------");
+        String str5 = "instagram";
+        boolean iniziaPer = str5.startsWith("A") || str5.startsWith("B");
+        System.out.println("La stringa inizia per A o per B? " + iniziaPer);
+
+        System.out.println("------ES16------");
+        int numeroIntero11 = -3;
+        boolean negativoOZero = numeroIntero11 == 0 || numeroIntero11 < 0;
+        System.out.println("Il numero è 0 o negativo? " + negativoOZero);
+
+        System.out.println("------ES17------");
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
 
     }
 }
