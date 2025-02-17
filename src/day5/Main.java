@@ -91,5 +91,47 @@ public class Main {
             System.out.println(i);
         }
 
+        System.out.println("------ES18------");
+        char lettera = 'A';
+        if (Character.isUpperCase(lettera)) {
+            System.out.println("La lettera è maiuscola");
+        } else if (Character.isLowerCase(lettera)) {
+            System.out.println("La lettera è minuscola");
+        } else {
+            System.out.println("Il carattere non è una lettera");
+        }
+
+        System.out.println("------ES19------");
+        int anno2 = 2023;
+        if (anno2 % 4 == 0 && anno2 % 100 != 0 || anno2 % 400 == 0){
+            System.out.println("L'anno è bisestile.");
+        } else {
+            System.out.println("L'anno " + anno2 +  " non è bisestile.");
+        }
+
+        System.out.println("------ES20------");
+        int numeroIntero12 = 10;
+        if (numeroIntero12 > 0 && numeroIntero12 % 2 == 0){
+            System.out.println("Il numero è pari e positivo");
+        } else {
+            System.out.println("Il numero è negativo o dispari");
+        }
+
+        System.out.println("------ES21------");
+        char carattere = 'e';
+        if (carattere == 'a' || carattere == 'e' || carattere == 'i' || carattere == 'o' || carattere == 'u') {
+            System.out.println("Il carattere è una vocale");
+        } else {
+            System.out.println("Il carattere è una consonante");
+        }
+
+        System.out.println("------ES22------");
+        int etaPersona = 12;
+        if (etaPersona >= 18) {
+            System.out.println("La persona è maggiorenne");
+        } else {
+            System.out.println("La persona è minorenne");
+        }
+
     }
 }
